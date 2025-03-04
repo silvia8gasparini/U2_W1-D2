@@ -124,6 +124,7 @@ h1 {
   margin-bottom: 0.7em;
 }
 
+
 p,
 address,
 ul,
@@ -149,6 +150,19 @@ h1 + p {
     font-weight: 700;
   }
 }
+
+
+.span-text {
+  position: relative;
+  
+  }
+  .span-underline {
+  position: absolute;
+  top: 412px;
+  right:100px;
+  width: 76%;
+  
+  }
 
 @media screen and (min-width: 500px) {
   h1 {
